@@ -1,0 +1,74 @@
+* {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/banner.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner_title{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 50px;
+    color: white;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 18px;
+}
+
+.nav img{
+    width: 160px;
+}
+
+.nav_bg{
+    background-color: black;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.movie_list{
+    width: 100%;
+    color: white;
+}
+.movie_img img{
+    width: 100%;
+}
+.movie_card{
+    width: 380px;
+    height: 300px;
+    float: left;
+    font-size: 24px;
+    padding: 20px 10px;
+    transition: transform .5s;
+    background-color: black;
+}
+
+.movie_card:hover{
+    transform: scale(1.2);
+}
+
+.movie_card span{
+    color: red;
+    float: right;
+    font-size: 20px;
+}
