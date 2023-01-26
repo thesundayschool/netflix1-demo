@@ -74,5 +74,15 @@ movies.forEach(function(result){
         </div>
     
     ` 
-
 })
+
+
+$(document).ready(function(){
+    $('.movie_list').slick({
+        dots: true,
+        infinite: true,
+        arrows: true,
+        slidesToShow: 5,
+        slidesToScroll: 1
+    });
+});

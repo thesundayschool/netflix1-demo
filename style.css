@@ -72,3 +72,9 @@ body {
     float: right;
     font-size: 20px;
 }
+
+.movie_list{
+    width: 96%;
+    margin: 0 auto;
+}
+
