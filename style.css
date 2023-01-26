@@ -61,6 +61,10 @@ body {
     padding: 20px 10px;
     transition: transform .5s;
     background-color: black;
+    text-decoration: none;
+}
+.movie_card a{
+    text-decoration: none;
 }
 .movie_heading{
     font-size: 24px;
@@ -77,7 +81,9 @@ body {
     float: right;
     font-size: 20px;
 }
-
+.movie_card a{
+    color: white;
+}
 .movie_list{
     width: 96%;
     margin: 0 auto;
