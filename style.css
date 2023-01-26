@@ -62,7 +62,12 @@ body {
     transition: transform .5s;
     background-color: black;
 }
-
+.movie_heading{
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
 .movie_card:hover{
     transform: scale(1.2);
 }
